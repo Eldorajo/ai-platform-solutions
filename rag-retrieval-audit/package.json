@@ -1,0 +1,15 @@
+{
+  "name": "rag-retrieval-audit",
+  "version": "0.1.0",
+  "description": "Record what a RAG retriever returns and report why answers go wrong.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "demo": "node examples/demo.ts"
+  }
+}

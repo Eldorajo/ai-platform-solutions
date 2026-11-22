@@ -1,0 +1,14 @@
+{
+  "name": "vpn-path-switcher",
+  "version": "0.1.0",
+  "description": "Fail AI requests over from a blocked direct path to a store-and-forward path through your own API, and back.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  }
+}

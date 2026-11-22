@@ -1,0 +1,15 @@
+{
+  "name": "agent-eval-harness",
+  "version": "0.1.0",
+  "description": "Decide whether a change to a tool-using support agent ships: graded outcomes, repeated trials, paired comparison, budget-aware.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "demo": "node examples/demo.ts"
+  }
+}

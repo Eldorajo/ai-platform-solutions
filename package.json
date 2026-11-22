@@ -1,0 +1,17 @@
+{
+  "name": "ai-platform-solutions",
+  "private": true,
+  "type": "module",
+  "workspaces": ["agent-eval-harness", "vpn-path-switcher", "rag-retrieval-audit"],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "npm test --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "typescript": "5.8.3"
+  }
+}
